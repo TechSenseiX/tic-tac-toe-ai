@@ -1,0 +1,82 @@
+/* .container{
+    margin-left:20rem;
+    margin-top:15rem;
+}
+.col{
+    height:70px;
+    width:70px;
+    border:1px solid black;
+}
+.row{
+    display:flex;
+} */
+
+
+
+
+
+/* General reset for better cross-browser compatibility */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 90vw;
+    max-width: 400px;
+    aspect-ratio: 1; /* Ensures the grid is always square */
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(192, 233, 244, 0.3);
+    border: 2px solid #000;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s ease;
+}
+
+.col:hover {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+    .col {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .col {
+        font-size: 1rem;
+    }
+}
