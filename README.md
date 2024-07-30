@@ -21,7 +21,9 @@ This is a simple Tic Tac Toe game implementation where you can play against an A
 
 ## Development
 - The game logic is implemented in `index.js`.
-- CSS styles are defined in `style.css`.
+  
+## Link
+- https://techsenseix.github.io/tic-tac-toe-ai/
 - Ensure JavaScript is enabled in your browser for full functionality.
 
 ## Future Improvements
