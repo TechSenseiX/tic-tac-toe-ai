@@ -1,5 +1,5 @@
 
-# Tic Tac Toe Game with AI
+# Tic Tac Toe Game
 
 This is a simple Tic Tac Toe game implementation where you can play against an AI opponent.
 
@@ -9,7 +9,7 @@ This is a simple Tic Tac Toe game implementation where you can play against an A
 - JavaScript
 
 ## Features
-- Play against an AI opponent.
+- Play against an  opponent.
 - Responsive design for different screen sizes.
 - Basic AI strategy implemented for opponent moves.
 
@@ -17,7 +17,7 @@ This is a simple Tic Tac Toe game implementation where you can play against an A
 1. Clone the repository.
 2. Open `index.html` in your browser.
 3. Click on any empty cell to make your move.
-4. The AI opponent will automatically make its move after you.
+4. The  opponent will automatically make its move after you.
 
 ## Development
 - The game logic is implemented in `index.js`.
