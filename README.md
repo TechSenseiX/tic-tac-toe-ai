@@ -1,7 +1,6 @@
 
 # Tic Tac Toe Game
-
-This is a simple Tic Tac Toe game implementation where you can play against an AI opponent.
+This project is a simple implementation of the classic Tic Tac Toe game using HTML, CSS3, and JavaScript. It features two playing modes (Player vs Player and Player vs AI)
 
 ## Technologies Used
 - HTML
